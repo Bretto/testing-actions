@@ -20,6 +20,6 @@ jobs:
     - run: npm run build:prod
     - uses: w9jds/firebase-action@v1.3.0
       with:
-        args: deploy --only hosting
+        args: deploy --only hosting --project staging
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
