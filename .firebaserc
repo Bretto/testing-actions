@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "ng-firebase-github-actions",
+    "default": "simulator-7c640",
     "staging": "simulator-7c640"
   }
 }
